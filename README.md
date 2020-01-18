@@ -1,8 +1,9 @@
 # Machine-Learning-Project
 Project Title: Soundtrack genre and popularity prediction based on soundtrack features in Spotify
+
 Group member names:
-Sonam Rinchen
-Hanxiang (Hanson) Zhang
+Hanxiang & Sonam
+
 Project Description:
 In this growing world of digital media, providing great user-experience is the foremost task. One of
 the ways to do so in soundtrack world is to provide users with the most popular songs. In light of this
