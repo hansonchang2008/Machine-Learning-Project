@@ -30,6 +30,10 @@ valence. Note that the latter 13 attributes are the audio features as defined by
 The link to the dataset is as follows.
 https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db
 
+Abstract:
+In the digital music industry, providing a great user experience is the foremost task. One of the ways to do so in the soundtrack world is to provide users with the most popular songs and genres. Considering this idea, we took up the challenge to predict the genre and popularity of soundtracks using the Spotify dataset. This paper is divided into two sets of case studies. The first case study examines the performance of five machine learning classification algorithms, namely, Logistic Regression, Decision Tree, K-nearest Neighbour, JRip and Random Forest to classify genres. Similarly, the second case study examines the performance of five machine learning regression algorithms, namely, SGDRegressor, KNeighborsRegressor, Decision Tree, LightGBM and M5 to predict the popularity of soundtracks. In each test case, we applied the standard machine learning model testing method to analyze and evaluate the best algorithms. For the first test case, Random Forest turned out to be the best classifier with the training accuracy of 86.1%. Whereas, in the second test case, M5-Rules (rule-based algorithm) earned the lowest training root mean squared error (RMSE) of 0.147. However, the best performer for the second test case is held by LightGBM with RMSE of 0.149 because M5 took more than 15 mins in training and LightGBM took few seconds. 
+
+
 Conclusion:
 It is vital that we carefully pre-processed the noisy and inconsistent data, did feature selection and balanced the data.
 Data Preprocessing is very important in our task.
