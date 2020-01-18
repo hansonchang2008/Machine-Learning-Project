@@ -4,18 +4,8 @@ Project Title: Soundtrack genre and popularity prediction based on soundtrack fe
 Group member names:
 Hanxiang & Sonam
 
-Project Description:
-In this growing world of digital media, providing great user-experience is the foremost task. One of
-the ways to do so in soundtrack world is to provide users with the most popular songs. In light of this
-idea, we are going to take up this challenge by predicting genre and popularity of soundtracks using
-Spotify dataset, and thereby suggests users with most popular soundtracks and their genres.
-In order to achieve the above, we are going to predict the genre of songs using classification and to
-predict the popularity of songs using regression. We planned to use K-nearest Neighbour and Support
-Vector Machine to predict the genre whereas to predict popularity of soundtracks we are going to use
-Linear Support Vector Regression and Stochastic Gradient Descent Linear Regression model. We will
-be implementing these algorithms in Sci-kit learn using Python language and as for the dataset, we are
-going to use Spotify data obtained from Kaggle website. More about dataset is in data set description
-section.
+Abstract:
+In the digital music industry, providing a great user experience is the foremost task. One of the ways to do so in the soundtrack world is to provide users with the most popular songs and genres. Considering this idea, we took up the challenge to predict the genre and popularity of soundtracks using the Spotify dataset. This paper is divided into two sets of case studies. The first case study examines the performance of five machine learning classification algorithms, namely, Logistic Regression, Decision Tree, K-nearest Neighbour, JRip and Random Forest to classify genres. Similarly, the second case study examines the performance of five machine learning regression algorithms, namely, SGDRegressor, KNeighborsRegressor, Decision Tree, LightGBM and M5 to predict the popularity of soundtracks. In each test case, we applied the standard machine learning model testing method to analyze and evaluate the best algorithms. For the first test case, Random Forest turned out to be the best classifier with the training accuracy of 86.1%. Whereas, in the second test case, M5-Rules (rule-based algorithm) earned the lowest training root mean squared error (RMSE) of 0.147. However, the best performer for the second test case is held by LightGBM with RMSE of 0.149 because M5 took more than 15 mins in training and LightGBM took few seconds. 
 
 Code description:
 Genre file is the python code for genre prediction;
@@ -29,10 +19,6 @@ energy, instrumentalness, key, liveness, loudness, mode, speechiness, tempo, tim
 valence. Note that the latter 13 attributes are the audio features as defined by Spotify.
 The link to the dataset is as follows.
 https://www.kaggle.com/zaheenhamidani/ultimate-spotify-tracks-db
-
-Abstract:
-In the digital music industry, providing a great user experience is the foremost task. One of the ways to do so in the soundtrack world is to provide users with the most popular songs and genres. Considering this idea, we took up the challenge to predict the genre and popularity of soundtracks using the Spotify dataset. This paper is divided into two sets of case studies. The first case study examines the performance of five machine learning classification algorithms, namely, Logistic Regression, Decision Tree, K-nearest Neighbour, JRip and Random Forest to classify genres. Similarly, the second case study examines the performance of five machine learning regression algorithms, namely, SGDRegressor, KNeighborsRegressor, Decision Tree, LightGBM and M5 to predict the popularity of soundtracks. In each test case, we applied the standard machine learning model testing method to analyze and evaluate the best algorithms. For the first test case, Random Forest turned out to be the best classifier with the training accuracy of 86.1%. Whereas, in the second test case, M5-Rules (rule-based algorithm) earned the lowest training root mean squared error (RMSE) of 0.147. However, the best performer for the second test case is held by LightGBM with RMSE of 0.149 because M5 took more than 15 mins in training and LightGBM took few seconds. 
-
 
 Conclusion:
 It is vital that we carefully pre-processed the noisy and inconsistent data, did feature selection and balanced the data.
