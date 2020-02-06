@@ -8,8 +8,8 @@ Abstract:
 In the digital music industry, providing a great user experience is the foremost task. One of the ways to do so in the soundtrack world is to provide users with the most popular songs and genres. Considering this idea, we took up the challenge to predict the genre and popularity of soundtracks using the Spotify dataset. This paper is divided into two sets of case studies. The first case study examines the performance of five machine learning classification algorithms, namely, Logistic Regression, Decision Tree, K-nearest Neighbour, JRip and Random Forest to classify genres. Similarly, the second case study examines the performance of five machine learning regression algorithms, namely, SGDRegressor, KNeighborsRegressor, Decision Tree, LightGBM and M5 to predict the popularity of soundtracks. In each test case, we applied the standard machine learning model testing method to analyze and evaluate the best algorithms. For the first test case, Random Forest turned out to be the best classifier with the training accuracy of 86.1%. Whereas, in the second test case, M5-Rules (rule-based algorithm) earned the lowest training root mean squared error (RMSE) of 0.147. However, the best performer for the second test case is held by LightGBM with RMSE of 0.149 because M5 took more than 15 mins in training and LightGBM took few seconds. 
 
 Code description:
-Genre file is the python code for genre prediction;
-Popularity file is the python code for popularity regression.
+* Genre file is the python code for genre prediction;
+* Popularity file is the python code for popularity regression.
 
 Dataset Description:
 The dataset is music database from Spotify including 232,725 tracks. There are 26 genres in total, and
